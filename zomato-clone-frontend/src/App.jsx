@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Cart from "./pages/Cart/Cart";
@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <>
-    {showLogin?<LoginPopup/>:<></>}
+    {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>}
       <div className="app">
         <Navbar setShowLogin={setShowLogin} />
         <Routes>
