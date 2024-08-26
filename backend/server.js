@@ -26,7 +26,7 @@ app.get("/",(req,res)=>{
 })
 
 app.listen(port,()=>{
-    console.log(`Server Started on http://localhost:${port}`) // Changed to template literal
+    console.log(`Server Started on http://localhost:${port}`)
 })
 
 // mongodb+srv://00a20j50:anuj1212@cluster0.jvzh9.mongodb.net/?
