@@ -6,9 +6,33 @@
     background-color: #00000090;
     display: grid;
 }
+
+:root .login-popup-title{
+    color: white;
+}
+
+.lightcolors .login-popup-title{
+    color: black;
+}
+
+
+:root .login-popup-container {
+    background-color: var(--body-color);
+}
+
+.lightcolors .login-popup-container {
+    background-color: white; 
+}
+
+.continuee{
+    position: relative;
+    top: 4px;
+}
+
+
 .login-popup-container{
     place-self: center;
-    width: max(23vw,330px);
+    width: max(23vw, 330px);
     color: #808080;
     background-color: white;
     display: flex;
@@ -23,7 +47,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: black;
+    color: black;   
 }
 .login-popup-title img{
     width: 16px;

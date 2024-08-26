@@ -1,13 +1,13 @@
 import React from 'react'
-import './Header.css';
+import './Header.css'
 
 const Header = () => {
   return (
     <div className='header'>
         <div className="header-contents">
-            <h2>Order your favourite food here</h2>
-            <p>Choose form a divverse menu featuring a delectable range of cuisines from around the world Choose form a divverse menu featuring a delectable range of cuisines from around the world Choose form a divverse menu featuring a delectable range of cuisines from around the world </p>
-            <button>View Menu</button>
+            <h2>Order your favorite food here</h2>
+            <p>Choose from a diverse menu featuring a delactable array of dishes crafted with the finest ingredients and satisfy your cravings and elevate your dining experience, one delicious meal at a time.</p>
+            <a href="#explore-menu"><button className='buttonwl'>View Menu</button></a>
         </div>
     </div>
   )

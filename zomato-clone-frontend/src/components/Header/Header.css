@@ -21,28 +21,43 @@
 .header-contents h2{
     font-weight: 500;
     color: white;
+    text-shadow: 1px 2px 2px black;
     font-size: max(4.5vw, 22px);
 }
+
 .header-contents p{
     color: white;
+    text-shadow: 1px 2px 2px black;
     font-size: 1vw;
 }
 
-.header-contents button {
+.header-contents button{
     border: none;
     color: #747474;
     font-weight: 500;
-    padding: 1vw 2.3vw; /* Reduced padding */
+    padding: 1vw 2.3vw;
     background-color: white;
-    font-size: max(1vw, 13px); /* Reduced font size */
+    font-size: max(1vw, 13px);
     border-radius: 50px;
+    cursor: pointer;
 }
-@media (max-width: 1050px) {
+
+:root .buttonwl {
+    color: black;
+}
+
+.lightcolors .buttonwl {
+    color: #747474;
+}
+
+
+@media (max-width:1050px) {
     .header-contents{
         max-width: 45%;
     }
 }
-@media (max-width: 750px) {
+
+@media (max-width:750px) {
     .header-contents{
         max-width: 65%;
     }
